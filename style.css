@@ -83,6 +83,10 @@ button {
   text-transform: uppercase;
 }
 
+button:hover {
+  border-color: var(--blue);
+}
+
 @media (max-width: 390px) {
   main {
     flex-direction: column;
